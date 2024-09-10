@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ./datasets/Annotated_Data/Images&Labels  # dataset root dir
+train: ./Annotated_Data/Images&Labels/train  # train images
+val: ./Annotated_Data/Images&Labels/val # val images 
+
+nc : 5 #No. of classes
+names: ['TOPWEAR', 'BOTTOMWEAR', 'FOOTWEAR', 'EYEWEAR', 'HANDBAG'] # Classes names
+
+
